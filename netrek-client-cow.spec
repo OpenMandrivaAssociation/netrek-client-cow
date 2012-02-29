@@ -1,3 +1,5 @@
+%define subrel 1
+
 Name:		netrek-client-cow
 Version:	3.3.1
 Release:	1
@@ -25,7 +27,8 @@ people who have been playing for nearly as long as the game has existed.
 
 %build
 %configure
-%make
+#Package doesn't support concurrent makes yet. forcing "-j1"
+make -j1
 
 %install
 %makeinstall
