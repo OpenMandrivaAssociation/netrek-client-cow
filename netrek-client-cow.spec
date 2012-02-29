@@ -1,8 +1,6 @@
-%define subrel 1
-
 Name:		netrek-client-cow
 Version:	3.3.1
-Release:	1
+Release:	2
 Summary:	Netrek client
 License:	MIT
 Group:		Games/Other
