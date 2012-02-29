@@ -29,6 +29,8 @@ people who have been playing for nearly as long as the game has existed.
 
 %install
 %makeinstall
+#Dont set execute on .desktop file
+chmod -x %{buildroot}%{_datadir}/applications/%{name}.desktop
 
 %files
 # "COPYING" is a list of authors, and not the GPL license
