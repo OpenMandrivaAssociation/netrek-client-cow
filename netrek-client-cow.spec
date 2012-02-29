@@ -39,4 +39,3 @@ chmod -x %{buildroot}%{_datadir}/applications/%{name}.desktop
 %{_gamesbindir}/%{name}
 %{_datadir}/pixmaps/%{name}/*
 %{_datadir}/applications/%{name}.desktop
-
