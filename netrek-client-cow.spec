@@ -1,6 +1,6 @@
 Name:		netrek-client-cow
 Version:	3.3.1
-Release:	2
+Release:	3
 Summary:	Netrek client
 License:	MIT
 Group:		Games/Other
