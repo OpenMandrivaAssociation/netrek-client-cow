@@ -43,3 +43,17 @@ install -p -m 0644 %{SOURCE1} -D %{buildroot}/%{_mandir}/man6/%{name}.6
 %{_datadir}/pixmaps/%{name}/*
 %{_datadir}/applications/%{name}.desktop
 %{_mandir}/man6/*.6*
+
+
+%changelog
+* Sat Mar 03 2012 Johnny A. Solbu <solbu@mandriva.org> 3.3.1-3
++ Revision: 781984
+- Adding manfile, from Debian
+- Spec cleanup
+
+* Thu Mar 01 2012 Johnny A. Solbu <solbu@mandriva.org> 3.3.1-2
++ Revision: 781479
+- Package doesn't support concurrent builds.
+- Remove execute perm on desktop file
+- import netrek-client-cow
+
