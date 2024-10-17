@@ -6,7 +6,7 @@ License:	MIT
 Group:		Games/Other
 Source0:	http://netrek.org/files/COW/%{name}-%{version}.tar.gz
 Source1:	%{name}.6
-URL:		http://www.netrek.org/
+URL:		https://www.netrek.org/
 
 BuildRequires:	SDL_mixer-devel
 BuildRequires:	SDL-devel
