@@ -8,6 +8,11 @@ Source0:	http://netrek.org/files/COW/%{name}-%{version}.tar.gz
 Source1:	%{name}.6
 URL:		https://www.netrek.org/
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	SDL_mixer-devel
 BuildRequires:	SDL-devel
 BuildRequires:	imlib2-devel
